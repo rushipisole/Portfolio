@@ -14,7 +14,7 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I am Rushikesh Pisole, Web Developer form Marathwada Institute of Technology, Aurangabad.
+              I am Rushikesh Pisole, Web Developer form Marathwada Institute of Technology, Aurangabad. my grade is 8.14
             </p>
             <a href="" className='btn'>Download CV</a>
           </div>
