@@ -130,23 +130,56 @@
     left: 36%;
     bottom: 10%;
 }
+
 .s7 {
     top: 20%;
     right: 25%;
 }
+
 .s8 {
     right: 24%;
     bottom: 20%;
 }
+
 .s9 {
     right: 2%;
     top: 10%;
 }
+
 .s10 {
     top: 45%;
     right: 11%;
 }
+
 .s11 {
     bottom: 10%;
     right: 2%;
+}
+
+.button {
+    padding: 0.75rem 2rem;
+    line-height: 1;
+    border-radius: 1.875rem;
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    background-color: var(--first-color);
+    font-weight: var(--font-bold);
+    cursor: pointer;
+}
+
+@keyframes button-push {
+    50% {
+        transform: scale(0.8);
+
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button:hover {
+    animation: button-push 0.3s linear 1;
 }

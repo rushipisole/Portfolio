@@ -4,7 +4,7 @@
 :root {
   --first-color: hsl(353, 100%, 65%);
   --title-color: hsl(244, 24%, 26%);
-  --text-color: hsl(244, 16%, 43%);
+  --text-color: hsl(0, 0%, 0%);
   --body-color: hsl(258, 60%, 98%);
   --container-color: #fff;
 
@@ -76,7 +76,8 @@ h2,
 h3 {
   color: var(--text-color);
   font-weight: var(--font-semibold);
-  line-height: 1.2;
+  line-height: 1.2; 
+  font-size: 28px;
 }
 
 ul {
