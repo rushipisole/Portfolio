@@ -4,6 +4,14 @@ import AboutBox from './AboutBox';
 
 
 const About = () => {
+  const downloadPdf = () => {
+    const link = document.createElement('a');
+    link.href = "./src/assets/Rushikesh_Pisole.pdf";
+    link.download = 'Rushikesh_Pisole.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
   return (
     <section className="about container section" id='about'>
       <h2 className="section__title">About Me</h2>
@@ -17,11 +25,11 @@ const About = () => {
             <p className="about__description">
               I am Rushikesh Pisole, Web Developer form Marathwada Institute of Technology, Aurangabad. my grade is 8.14
             </p>
-            <a href="" className='btn'>Download CV</a>
+            <a onClick={downloadPdf} className='btn'>Download CV</a>
           </div>
 
           <div className="about__skills grid">
-            <div className="skills__data">  
+            <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Development</h3>
                 <span className="skills__number">90%</span>
@@ -57,7 +65,7 @@ const About = () => {
         </div>
       </div>
 
-      <AboutBox/>
+      <AboutBox />
     </section>
   )
 }
