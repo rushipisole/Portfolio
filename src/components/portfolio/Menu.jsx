@@ -33,7 +33,7 @@ const Menu = [
         id: 6,
         image: "./src/assets/work-6.svg",
         title: "JKL",
-        category: "Design",
+        category: "Creative",
     },
 
 ]
