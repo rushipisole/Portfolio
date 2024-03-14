@@ -7,6 +7,7 @@ import Resume from './components/resume/Resume'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import About from './components/about/About'
+// import Language from './components/skills/Language'
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Sidebar />
         <Home />
         <About />
-   
+        {/* <Language/> */}
         <Services />
         <Resume />
         <Portfolio />
