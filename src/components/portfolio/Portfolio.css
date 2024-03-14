@@ -71,7 +71,7 @@
 }
 
 .work__button {
-    color: #fff;
+    color: black;
     position: absolute;
     bottom: 1.5rem;
     left: 1.5rem;
@@ -88,7 +88,29 @@
     opacity: 0;
 }
 
+.work__buttongit {
+    color: black;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 15.5rem;
+    font-size: var(--h3-font-size);
+    display: block;
+    background-color: #ffd15c;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    transition: .3s;
+    opacity: 0;
+}
+
 .work__card:hover .work__button {
+    opacity: 1;
+}
+
+.work__card:hover .work__buttongit {
     opacity: 1;
 }
 
@@ -108,6 +130,7 @@
         justify-content: center;
         row-gap: 1.875rem;
     }
+
 }
 
 @media screen and (max-width:768px) {
@@ -123,5 +146,23 @@
 @media screen and (max-width:350px) {
     .work__container {
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .work__buttongit {
+        left: 13rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .work__buttongit {
+        left: 15rem;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .work__buttongit {
+        left: 12rem;
     }
 }

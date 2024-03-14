@@ -7,7 +7,6 @@ import Resume from './components/resume/Resume'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import About from './components/about/About'
-// import Contact2 from './components/contact/Contact2'
 
 
 function App() {
@@ -24,7 +23,7 @@ function App() {
         <Portfolio />
         <Blogs />
         <Contact />
-        {/* <Contact2/> */}
+       
       </div>
     </>
   )
