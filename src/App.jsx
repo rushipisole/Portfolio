@@ -18,12 +18,13 @@ function App() {
         <Sidebar />
         <Home />
         <About />
+   
         <Services />
         <Resume />
         <Portfolio />
         <Blogs />
         <Contact />
-       
+
       </div>
     </>
   )

@@ -10,19 +10,19 @@ const Blogs = () => {
         <div className="blog__card">
           <div className="blog__thumb">
             <a href="#"> <span className="blog__category">Reviews</span> </a>
-            <a href=""><img src="./src/assets/blog-1.svg" alt="" className='blog__img' /></a>
+            <a href=""><img src="./src/assets/learningKatta.png" alt="" className='blog__img' /></a>
           </div>
           <div className="blog__details">
-            <h3 className="blog__title">Best app development</h3>
+            <h3 className="blog__title">Learning Katta</h3>
             <div className="blog__meta">
-              <span>jun 10</span>
+              <span>Feb 3</span>
               <span className="blog__dot">.</span>
               <span>Rushi</span>
             </div>
           </div>
         </div>
 
-        <div className="blog__card">
+        {/* <div className="blog__card">
           <div className="blog__thumb">
             <a href="#"> <span className="blog__category">Reviews</span> </a>
             <a href=""><img src="./src/assets/blog-1.svg" alt="" className='blog__img' /></a>
@@ -35,9 +35,9 @@ const Blogs = () => {
               <span>Rushi</span>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="blog__card">
+        {/* <div className="blog__card">
           <div className="blog__thumb">
             <a href="#"> <span className="blog__category">Reviews</span> </a>
             <a href=""><img src="./src/assets/blog-1.svg" alt="" className='blog__img' /></a>
@@ -50,7 +50,7 @@ const Blogs = () => {
               <span>Rushi</span>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

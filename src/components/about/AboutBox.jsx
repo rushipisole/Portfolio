@@ -16,24 +16,24 @@ const AboutBox = () => {
                 <i className="about__icon icon-fire"></i>
 
                 <div>
-                    <h3 className="about__title">200</h3>
-                    <span className="about__subtitle">Cup of Coffee</span>
+                    <h3 className="about__title">2</h3>
+                    <span className="about__subtitle">Internships</span>
                 </div>
             </div>
             <div className="about__box">
                 <i className="about__icon icon-fire "></i>
 
                 <div>
-                    <h3 className="about__title">40</h3>
-                    <span className="about__subtitle">Satisfied Clients</span>
+                    <h3 className="about__title">5</h3>
+                    <span className="about__subtitle">Skill Set</span>
                 </div>
             </div>
             <div className="about__box">
                 <i className="about__icon icon-fire"></i>
 
                 <div>
-                    <h3 className="about__title">45</h3>
-                    <span className="about__subtitle">Friends</span>
+                    <h3 className="about__title">3</h3>
+                    <span className="about__subtitle">Certifications</span>
                 </div>
             </div>
         </div>
