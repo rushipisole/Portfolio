@@ -1,7 +1,7 @@
 const Menu = [
     {
         id: 1,
-        image: "./src/assets/learningKatta.png",
+        image: "/src/assets/learningKatta.png",
         title: "Welcome to Learning Katta \n This website made using a ReactJs.",
         category: "Design",
         projectLink: "https://learningkatta.netlify.app/",
@@ -9,7 +9,7 @@ const Menu = [
     },
     {
         id: 2,
-        image: "./src/assets/Aes.png",
+        image: "/src/assets/Aes.png",
         title: "Alpesa Education Services \n This website made using HTML & CSS",
         category: "Design",
         projectLink: "https://alpesaeducationservices.com/",
@@ -17,10 +17,10 @@ const Menu = [
     },
     {
         id: 3,
-        image: "./src/assets/sipNSnacks.jpg",
+        image: "/src/assets/sipNSnacks.jpg",
         title: "Sip N Snacks (The food ordering website) \n This website made using HTML, CSS & PHP",
         category: "Creative",
-        projectLink: "https://example.com/button4",
+        projectLink: "https://github.com/rushipisole/Sip-n-Snacks",
         github: "https://github.com/rushipisole/Sip-n-Snacks"
     },
     // {

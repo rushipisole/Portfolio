@@ -6,6 +6,10 @@
     grid-template-columns: 3fr 9fr;
     column-gap: 1.875rem;
 }
+.about__img {
+    border-radius: 50%;
+    height: 200px;
+}
 
 .about__data {
     padding: 1.875rem;
@@ -157,8 +161,9 @@
     .about__container {
         grid-template-columns: 320px;
     }
-    .section__title{
-        text-align: center; 
+
+    .section__title {
+        text-align: center;
     }
 }
 
@@ -170,7 +175,8 @@
     .about__boxes {
         grid-template-columns: 1fr;
     }
-    .section__title{
-        text-align: center; 
+
+    .section__title {
+        text-align: center;
     }
 }

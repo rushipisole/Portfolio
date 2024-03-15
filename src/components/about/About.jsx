@@ -18,7 +18,7 @@ const About = () => {
 
       <div className="about__container grid">
 
-        <img src="./src/assets/avatar-2.svg" alt="" className='about__img' />
+        <img className='about__img' src="/src/assets/aboutImage3.jpg" alt=""  />
 
         <div className="about__data grid">
           <div className="about__info">
