@@ -12,7 +12,7 @@ const Home = () => {
     <section className="home container" id="home">
       <div className="intro">
         <img src="./public/image/Picture1.png" alt="" />
-        <h1 className="home__name">Rushikesh Pisole</h1>
+        <h1 className="home__name">Rushikesh Pisole2</h1>
         <span className="home__education">I am a Front-End developer  </span>
 
 
