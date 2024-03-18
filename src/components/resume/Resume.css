@@ -15,6 +15,7 @@
     position: relative;
     padding-left: 3.125rem;
     padding-bottom: 3.125rem;
+    text-align: justify;
 }
 
 .timeline__item:last-child {

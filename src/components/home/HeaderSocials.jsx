@@ -10,7 +10,7 @@ const HeaderSocials = () => {
                 <i className="fab fa-github work__button-icon"></i>
             </a>
 
-            <a href="src/assets/Rushikesh_Pisole.pdf" className='home__social-link' target='_blank'>
+            <a href="/image/Rushikesh_Pisole.pdf" className='home__social-link' target='_blank'>
                 <i className="fa-solid fa-file"></i>
             </a>
 

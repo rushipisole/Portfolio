@@ -30,7 +30,7 @@ const Data = [
         year: "Feb 2024 - present",
         title: "Front-End Developer (Intern)",
         title2: "(Magic Flare Software Services)",
-        desc: "Doing my internship in ReactJs,",
+        desc: "• Developed responsive web applications using React.js, JavaScript, HTML, and CSS. <br> • Utilized version control systems such as Git for efficient code management and collaboration. <br> • Learned and applied industry-standard development methodologies and workflows.",
     },
     {
         id: 5,
@@ -39,7 +39,7 @@ const Data = [
         year: "Jun 2023 - Jan 2024",
         title: "Software Developer (Intern)",
         title2: "Rightrack IT Pro",
-        desc: "Completed my six month of internship in React and python",
+        desc: "• Collaborated with a team to develop and maintain React Native and other technology-based applications. <br> • Built new features and optimized performance through coding, adhering to coding best practices and design patterns.<br> • Communicated and collaborated with stakeholders, including product owners and designers, to understand requirements and deliver high quality software. <br> • Stayed up to date with emerging technologies through research and continuously developed technical skills."
     },
     // {
     //     id: 6,

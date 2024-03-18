@@ -6,7 +6,7 @@ import './About.css';
 const About = () => {
   const downloadPdf = () => {
     const link = document.createElement('a');
-    link.href = "./src/assets/Rushikesh_Pisole.pdf";
+    link.href = "/image/Rushikesh_Pisole.pdf";
     link.download = 'Rushikesh_Pisole.pdf';
     document.body.appendChild(link);
     link.click();

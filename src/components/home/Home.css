@@ -44,14 +44,20 @@
 }
 
 .scroll__down {
-    position: absolute;
+    /* position: absolute;
     bottom: 2.5rem;
     left: 0;
+    width: 100%; */
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
 .home__scroll-name {
     font-size: var(--small-font-size);
+    color: black;
 }
 
 .mouse {
@@ -195,8 +201,9 @@
         font-size: 1.125rem;
     }
 }
-@media screen and (max-width:500px) {
+/* @media screen and (max-width:500px) {
     .scroll__down {
-       top: 35.5rem;
+       top: 34.5rem;
+       position: absolute;
     }
-}
+} */
