@@ -23,9 +23,9 @@ const HeaderSocials = () => {
             </a>
 
 
-            {/* <a href="" className='home__social-link' target='_blank'>
-                <i className="fa-brands fa-pinterest"></i>
-            </a> */}
+            <a href="https://www.linkedin.com/in/rushikesh-pisole/" className='home__social-link' target='_blank'>
+                <i className="fa-brands fa-linkedin"></i>
+            </a>
 
         </div>
     )
