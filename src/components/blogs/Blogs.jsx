@@ -10,10 +10,10 @@ const Blogs = () => {
         <div className="blog__card">
           <div className="blog__thumb">
             <a href="#"> <span className="blog__category">Reviews</span> </a>
-            <a href=""><img src="/image/learningKatta.png" alt="" className='blog__img' /></a>
+            <a href="https://learningkatta.netlify.app/"><img src="/image/learningKatta.png" alt="" className='blog__img' /></a>
           </div>
           <div className="blog__details">
-            <h3 className="blog__title">Learning Katta</h3>
+            <a href="https://learningkatta.netlify.app/" className="blog__title">Learning Katta</a>
             <div className="blog__meta">
               <span>Feb 3</span>
               <span className="blog__dot">.</span>

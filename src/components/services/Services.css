@@ -42,6 +42,7 @@
 
 .services__description {
     color: #f8f9fa;
+    text-align: justify;
 }
 
 .services__card:nth-child(2) .services__title {

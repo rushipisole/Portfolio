@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import AboutBox from './AboutBox';
+// import AboutBox from './AboutBox';/\
 
 
 const About = () => {
@@ -18,12 +18,12 @@ const About = () => {
 
       <div className="about__container grid">
 
-        <img className='about__img' src="/image/aboutImage3.jpg" alt=""  />
+        <img className='about__img' src="/image/aboutImage3.jpg" alt="" />
 
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I am Rushikesh Pisole, Web Developer form Marathwada Institute of Technology, Aurangabad. my grade is 8.14
+              I am Rushikesh Ganesh Pisole, Pursuing B.Tech in Computer Science & Engineering with 8.14 CGPA. Passionate Front-End Developer proficient in HTML, CSS, and JavaScript & coreJava with a understanding of frameworks like ReactJs, Django and Bootstrap.
             </p>
             <a onClick={downloadPdf} className='btn'>Download CV</a>
           </div>
@@ -65,7 +65,7 @@ const About = () => {
         </div>
       </div>
 
-      <AboutBox />
+      {/* <AboutBox /> */}
     </section>
   )
 }
